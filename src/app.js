@@ -8,7 +8,7 @@ const handlebars = require(`express-handlebars`)
 
 const app = express()
 
-const PORT = 8080
+const PORT = 3000
 const httpServer = app.listen(PORT, () => {
     console.log(`Escuchando en el puerto: ${PORT}`);
 })
